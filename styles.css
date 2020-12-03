@@ -1,0 +1,193 @@
+body {
+  font-family: "Bai Jamjuree", sans-serif;
+  margin: 0;
+  background-image: url(./images/bg-header-desktop.png);
+  background-repeat: no-repeat;
+}
+p {
+  color: hsl(201, 11%, 66%);
+  font-size: 18px;
+  line-height: 2rem;
+}
+h2 h3 {
+  color: hsl(210, 10%, 33%);
+  font-family: "Bai Jamjuree", sans-serif;
+  font-weight: 600;
+}
+h1 {
+  font-size: 2.5rem;
+  font-weight: 600;
+}
+h2 {
+  margin: 0 auto 0 auto;
+  font-size: 2rem;
+  font-weight: 600;
+  padding-top: 5%;
+  padding-bottom: 2%;
+}
+h3 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  padding: 30px 0 5px;
+}
+.container-fluid {
+  margin: 0 auto 0 auto;
+  text-align: center;
+}
+
+/* Buttons */
+
+.download-btn {
+  font-family: "Bai Jamjuree", sans-serif;
+  color: #fff;
+  margin: 0 1% 5% 1%;
+  text-align: center;
+  padding: 10px 50px 10px 50px;
+  border-radius: 50px;
+}
+.ios-btn {
+  background-color: hsl(171, 66%, 44%);
+}
+
+.mac-btn {
+  background-color: hsl(233, 100%, 69%);
+}
+
+/* Header section */
+
+.header {
+  margin: 0 auto 0 auto;
+  text-align: center;
+}
+.header-logo {
+  width: 75px;
+  margin: 75px auto 40px auto;
+}
+.header-head {
+  font-size: 2.5rem;
+}
+.header-par {
+  width: 50%;
+  margin: 2% auto 5% auto;
+  text-align: center;
+}
+
+/* Snippets Section */
+
+.computer {
+  width: auto;
+  max-width: 700px;
+  position: relative;
+  left: -40%;
+}
+
+/* Clipboard Section */
+
+.devices {
+  max-width: 60%;
+}
+
+/* Workflow Section */
+
+.workflow {
+  text-align: center;
+  padding-top: 5%;
+  padding-bottom: 2%;
+}
+
+/* Logos Section */
+
+.logos {
+  text-align: center;
+  margin: 5% auto 3% auto;
+}
+
+.logos img {
+  padding: 2%;
+}
+
+/* Footer Section */
+
+.footer {
+  background-color: hsla(210, 7%, 89%, 0.81);
+  margin: 5% auto 0 auto;
+  padding: 5% 10% 5% 10%;
+}
+
+.footer p {
+  color: hsl(210, 10%, 33%);
+}
+
+.footer-logo {
+  width: 100px;
+}
+
+.social {
+  padding: 5px;
+}
+
+.attribution {
+  background-color: hsla(210, 7%, 89%, 0.81);
+  color: hsl(210, 10%, 33%);
+  text-align: center;
+  margin-bottom: 0;
+  font-size: 12px;
+}
+
+@media (max-width: 800px) {
+  body {
+    padding: 0 2%;
+  }
+  h1 {
+    padding: 2% 0 5%;
+  }
+
+  h2 {
+    padding-bottom: 5%;
+  }
+  .container-fluid {
+    padding: 10% 0 2% 0;
+  }
+  .header-logo {
+    width: 120px;
+    padding-top: 0;
+  }
+  .header-par {
+    width: 90%;
+    padding-bottom: 5%;
+  }
+
+  .download-btn {
+    padding: 10px 70px 10px 70px;
+  }
+
+  .computer-image {
+    margin: 0 auto;
+    text-align: center;
+  }
+  .computer {
+    position: relative;
+    max-width: 400px;
+    margin: 2% auto;
+    left: 8%;
+  }
+  .snippets-column {
+    padding-top: 2%;
+    text-align: center;
+  }
+}
+.workflow img {
+  padding-top: 7%;
+}
+.logos img {
+  padding-top: 5%;
+}
+.footer {
+  text-align: center;
+}
+.footer-logo {
+  padding: 7%;
+}
+.social {
+  padding: 7% 5%;
+}
