@@ -99,7 +99,9 @@ h3 {
 
 .logos {
   text-align: center;
-  margin: 5% auto 3% auto;
+  margin: 7%% auto 5% auto;
+  padding-top: 75px;
+  padding-bottom: 75px;
 }
 
 .logos img {
