@@ -118,6 +118,7 @@ h3 {
 
 .footer p {
   color: hsl(210, 10%, 33%);
+  text-align: left;
 }
 
 .footer-logo {
@@ -137,9 +138,6 @@ h3 {
 }
 
 @media (max-width: 800px) {
-  body {
-    padding: 0 2%;
-  }
   h1 {
     padding: 2% 0 5%;
   }
@@ -168,28 +166,34 @@ h3 {
     text-align: center;
   }
   .computer {
-    position: relative;
     max-width: 400px;
     margin: 2% auto;
     left: 8%;
+    width: auto;
   }
   .snippets-column {
     padding-top: 2%;
     text-align: center;
   }
-}
-.workflow img {
-  padding-top: 7%;
-}
-.logos img {
-  padding-top: 5%;
-}
-.footer {
-  text-align: center;
-}
-.footer-logo {
-  padding: 7%;
-}
-.social {
-  padding: 7% 5%;
+
+  .workflow img {
+    padding-top: 7%;
+  }
+  .logos img {
+    padding-top: 5%;
+  }
+  .footer {
+    text-align: center;
+    margin: 0;
+  }
+  .footer p {
+    text-align: center;
+  }
+  .footer-logo {
+    padding: 7%;
+    width: 150px;
+  }
+  .social {
+    padding: 7% 5%;
+  }
 }
